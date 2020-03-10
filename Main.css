@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #f4f4f4;
+	padding: 1%;
+}
+
+	a{}
+	a:hover{border-bottom: thin;}
+	a:active{background-color: #4CAF50;}
+
+	header{
+		display: flex;
+		justify-content: space-between;
+	}
+
+		.newtable{
+			border: solid 1px #000000;
+			display: flex;
+			flex-basis: 20%;
+			justify-content: space-around;
+		}
+		.name{
+			flex-direction: column;
+			border-left: dotted thin;
+			padding-left: 10%;
+			line-height: 50%;
+			font-family: monospace;
+		}
+		.logo{
+			padding-left: 10%;
+		}
+		hr{
+			border-style: dotted;
+		}
+
+		ul{
+			display: flex;
+			padding-right: 2%;
+		}
+		.navbar{
+			list-style: none;
+			text-align: center;
+			border: solid 1px #000000;
+			flex-basis: 60%;
+			align-content: center;
+		}
+		.tabs{
+			border: solid 1px #000000;
+			width: 20%;
+			border-radius: 2%;
+			border-bottom: solid;
+		}
+
+	footer{
+		position: fixed;
+		bottom: 2%;
+		width: 96%;
+		display: flex;
+		border: solid 1px #000;
+		justify-content: space-between;
+	}
+		.devtext, .copytext{
+			border: solid 1px #000;
+		}
+		.devtext{
+			padding-left: 5%;
+		}
+		.copytext{
+			padding-right: 5%;
+		}
+/* INDEX PAGE MAIN */
+#bodyarea{
+
+}
+button{
+
+}
+/* CONTACTS PAGE MAIN */
+.formarea{
+	margin-top: 1%;
+	border: solid 1px #000;
+	display: inline-flex;
+	flex-direction: column;
+	width: 70%;
+}
+.socialform{
+	display: inline-flex;
+	border: solid 1px #000;
+	flex-direction: column;
+	width: 29%;
+}
+.h3heading{
+	text-align: center;
+}
+.socialtable{
+	margin-left: auto;
+	margin-right: auto;
+}
+.contactform{
+	width: 30%;
+}
+fieldset{
+	border-radius: 5%;
+}
+.formlabel{
+	display: flex;
+}
+.forminput{
+	width: 100%;
+	margin-top: 1%;
+}
+.formbutton{
+	width: 30%;
+	height: 30%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	justify-content: center;
+}
